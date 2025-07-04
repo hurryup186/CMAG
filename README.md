@@ -44,8 +44,8 @@ Following [SDCL](https://github.com/yangbincv/SDCL), we adopt the self-supervise
 
 | Datasets | Rank-1 | mAP | Download |
 | --- | --- | --- | --- |
-| SYSU-MM01 (All Search) | 68.5% | 64.0% | [model](your-link-here) |
-| RegDB (Visible to Infrared) | 94.7% | 86.4% | [model](your-link-here) |
+| SYSU-MM01 (All Search) | 68.5% | 64.0% | [model](https://drive.google.com/drive/folders/1zTwPklmSfa_-kewe8JUQtK6o3GnWtL_O?usp=sharing) |
+| RegDB (Visible to Infrared) | 94.7% | 86.4% | [model](https://drive.google.com/drive/folders/1MQC19Veykeo4eFk_LVAmJCwtynpmS0Mc?usp=drive_link) |
 
 # Acknowledgment
 
