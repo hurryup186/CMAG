@@ -35,10 +35,10 @@ Put SYSU-MM01 and RegDB dataset (run prepare_sysu.py and prepare_regdb.py to con
 
 Following [SDCL](https://github.com/yangbincv/SDCL), we adopt the self-supervised pre-trained models (ViT-B/16+ICS) from [Self-Supervised Pre-Training for Transformer-Based Person Re-Identification](https://github.com/damo-cv/TransReID-SSL?tab=readme-ov-file)
 
-# Training
+# Testing
 
-1. sh run_train_sysu.sh
-2. sh run_train_regdb.sh
+1. sh run_test_sysu.sh
+2. sh run_test_regdb.sh
 
 # Models
 
