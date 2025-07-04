@@ -1,0 +1,192 @@
+(pytorch) zyf@jxvmlab-KVM:~/project/reid/Google/CMAG$ bash run_regdb_test.sh 
+using drop_out rate is : 0.0
+using attn_drop_out rate is : 0.0
+using drop_path rate is : 0.3
+Resized position embedding from size:torch.Size([1, 129, 768]) to size: torch.Size([1, 198, 768]) with height:24 width: 8
+Load 196 / 201 layers.
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/1/model_best.pth.tar'
+visible to thermal
+/home/zyf/project/reid/Google/CMAG/test_regdb.py:148: DeprecationWarning: ANTIALIAS is deprecated and will be removed in Pillow 10 (2023-07-01). Use LANCZOS or Resampling.LANCZOS instead.
+  img = img.resize((img_size[0], img_size[1]), Image.ANTIALIAS)
+Extracting Query Feature...
+Extracting Time:         17.183
+Extracting Gallery Feature...
+Extracting Time:         15.592
+Test Trial: 1
+FC:   Rank-1: 95.15% | Rank-5: 98.45% | Rank-10: 99.37%| Rank-20: 99.66%| mAP: 86.84%| mINP: 71.64%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/2/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         16.144
+Extracting Gallery Feature...
+Extracting Time:         15.818
+Test Trial: 2
+FC:   Rank-1: 95.34% | Rank-5: 98.20% | Rank-10: 99.08%| Rank-20: 99.61%| mAP: 86.81%| mINP: 71.21%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/3/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.578
+Extracting Gallery Feature...
+Extracting Time:         15.521
+Test Trial: 3
+FC:   Rank-1: 95.10% | Rank-5: 98.45% | Rank-10: 99.22%| Rank-20: 99.71%| mAP: 87.78%| mINP: 73.72%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/4/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.665
+Extracting Gallery Feature...
+Extracting Time:         15.536
+Test Trial: 4
+FC:   Rank-1: 93.79% | Rank-5: 97.52% | Rank-10: 98.64%| Rank-20: 99.27%| mAP: 85.52%| mINP: 70.61%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/5/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.322
+Extracting Gallery Feature...
+Extracting Time:         15.271
+Test Trial: 5
+FC:   Rank-1: 94.61% | Rank-5: 98.30% | Rank-10: 99.17%| Rank-20: 99.76%| mAP: 86.72%| mINP: 71.17%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/6/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.567
+Extracting Gallery Feature...
+Extracting Time:         15.241
+Test Trial: 6
+FC:   Rank-1: 94.51% | Rank-5: 98.30% | Rank-10: 99.27%| Rank-20: 99.66%| mAP: 85.89%| mINP: 69.97%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/7/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.506
+Extracting Gallery Feature...
+Extracting Time:         15.186
+Test Trial: 7
+FC:   Rank-1: 94.47% | Rank-5: 96.99% | Rank-10: 98.59%| Rank-20: 99.47%| mAP: 86.04%| mINP: 70.25%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/8/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.436
+Extracting Gallery Feature...
+Extracting Time:         15.481
+Test Trial: 8
+FC:   Rank-1: 95.15% | Rank-5: 98.06% | Rank-10: 98.98%| Rank-20: 99.61%| mAP: 88.36%| mINP: 75.37%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/9/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.842
+Extracting Gallery Feature...
+Extracting Time:         15.551
+Test Trial: 9
+FC:   Rank-1: 94.17% | Rank-5: 97.09% | Rank-10: 98.40%| Rank-20: 99.37%| mAP: 85.71%| mINP: 70.08%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/10/model_best.pth.tar'
+visible to thermal
+Extracting Query Feature...
+Extracting Time:         15.710
+Extracting Gallery Feature...
+Extracting Time:         16.089
+Test Trial: 10
+FC:   Rank-1: 94.47% | Rank-5: 98.06% | Rank-10: 98.93%| Rank-20: 99.56%| mAP: 84.61%| mINP: 68.11%
+All Average:
+FC:     Rank-1: 94.67% | Rank-5: 97.94% | Rank-10: 98.97%| Rank-20: 99.57%| mAP: 86.43%| mINP: 71.21%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/1/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         15.528
+Extracting Query Feature...
+Extracting Time:         15.344
+Test Trial: 1
+FC:   Rank-1: 94.27% | Rank-5: 97.04% | Rank-10: 97.82%| Rank-20: 99.13%| mAP: 85.80%| mINP: 68.80%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/2/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         15.667
+Extracting Query Feature...
+Extracting Time:         15.224
+Test Trial: 2
+FC:   Rank-1: 94.71% | Rank-5: 98.06% | Rank-10: 98.93%| Rank-20: 99.47%| mAP: 87.13%| mINP: 71.94%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/3/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         16.548
+Extracting Query Feature...
+Extracting Time:         15.595
+Test Trial: 3
+FC:   Rank-1: 94.71% | Rank-5: 98.06% | Rank-10: 99.08%| Rank-20: 99.66%| mAP: 87.97%| mINP: 71.77%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/4/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         15.925
+Extracting Query Feature...
+Extracting Time:         15.565
+Test Trial: 4
+FC:   Rank-1: 92.96% | Rank-5: 97.33% | Rank-10: 99.13%| Rank-20: 99.71%| mAP: 84.57%| mINP: 67.66%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/5/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         16.422
+Extracting Query Feature...
+Extracting Time:         15.451
+Test Trial: 5
+FC:   Rank-1: 94.61% | Rank-5: 98.30% | Rank-10: 99.42%| Rank-20: 99.66%| mAP: 86.27%| mINP: 69.07%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/6/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         16.136
+Extracting Query Feature...
+Extracting Time:         15.632
+Test Trial: 6
+FC:   Rank-1: 92.82% | Rank-5: 96.84% | Rank-10: 98.35%| Rank-20: 99.42%| mAP: 85.64%| mINP: 68.85%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/7/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         15.943
+Extracting Query Feature...
+Extracting Time:         17.057
+Test Trial: 7
+FC:   Rank-1: 92.09% | Rank-5: 96.26% | Rank-10: 98.01%| Rank-20: 99.17%| mAP: 83.79%| mINP: 66.63%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/8/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         16.128
+Extracting Query Feature...
+Extracting Time:         16.278
+Test Trial: 8
+FC:   Rank-1: 92.82% | Rank-5: 97.04% | Rank-10: 98.54%| Rank-20: 99.32%| mAP: 87.18%| mINP: 73.37%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/9/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         15.871
+Extracting Query Feature...
+Extracting Time:         15.679
+Test Trial: 9
+FC:   Rank-1: 92.67% | Rank-5: 97.38% | Rank-10: 98.59%| Rank-20: 99.37%| mAP: 84.96%| mINP: 68.48%
+==> Test with the best model:
+=> Loaded checkpoint '/home/zyf/project/reid/Google/CMAG/logs/regdb_s2/10/model_best.pth.tar'
+thermal to visible
+Extracting Gallery Feature...
+Extracting Time:         16.054
+Extracting Query Feature...
+Extracting Time:         15.529
+Test Trial: 10
+FC:   Rank-1: 91.94% | Rank-5: 96.65% | Rank-10: 98.11%| Rank-20: 99.03%| mAP: 83.46%| mINP: 66.61%
+All Average:
+FC:     Rank-1: 93.36% | Rank-5: 97.30% | Rank-10: 98.60%| Rank-20: 99.39%| mAP: 85.68%| mINP: 69.32%
