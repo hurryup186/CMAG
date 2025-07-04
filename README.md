@@ -2,7 +2,7 @@
 
 **[Submitted to IEEE TCSVT]**
 
-![](https://raw.githubusercontent.com/your-username/CMAG/main/examples/pipeline.png)
+![](https://raw.githubusercontent.com/hurryup186/CMAG/main/fig/CMAG.png)
 
 
 This repository contains the implementation of CMAG: Cross-Modal Attention and Graph-Enhanced Memory for Unsupervised Visible-Infrared Person Re-Identification.
