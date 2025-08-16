@@ -7,16 +7,11 @@
 
 This repository contains the implementation of CMAG: Cross-Modal Attention and Graph-Enhanced Memory for Unsupervised Visible-Infrared Person Re-Identification.
 
-## 📢 Code Availability Notice
+
 
 We have made our **pre-trained model weights** and **evaluation code** publicly available to demonstrate the effectiveness of our method. 
 
 **For the complete source code**:Due to intellectual property protection considerations, the full training source code will be made available after the paper is officially published. 
-
-**How to obtain full source code:**
-- The complete source code will be released upon paper publication.
-- For early access requests, please contact us via email with your research affiliation and intended use.
-- Contact: [zhangyifeng186@stu.gxnu.edu.cn]
 
 We appreciate your understanding and look forward to sharing the complete implementation upon publication.
 
