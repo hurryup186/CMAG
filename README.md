@@ -11,9 +11,7 @@ This repository contains the implementation of CMAG: Cross-Modal Attention and G
 
 We have made our **pre-trained model weights** and **evaluation code** publicly available to demonstrate the effectiveness of our method. 
 
-**For the complete source code**:Due to intellectual property protection considerations, the full training source code will be made available after the paper is officially published. 
-
-We appreciate your understanding and look forward to sharing the complete implementation upon publication.
+**For the complete source code**:Due to intellectual property protection considerations, the training source code will not be publicly released.
 
 # Contributions
 
